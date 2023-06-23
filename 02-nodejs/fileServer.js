@@ -5,7 +5,6 @@
   const fs = require('fs');
   const path = require('path');
   const app = express();
-  port = 3000;
 
   //The expected API endpoints are defined below,
   //1. GET /files - Returns a list of files present in `./files/` directory
